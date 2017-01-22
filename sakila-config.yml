@@ -1,0 +1,11 @@
+database:
+	sakila:
+		driver: com.mysql.jdbc.Driver
+		url: jdbc:mysql://localhost:3306/sakila
+		username: root
+		password: root
+
+pattern:
+	date: dd/MM/YYYY
+	datetime: dd/MM/YYYY HH:mm:ss
+	time: HH:mm:ss	
